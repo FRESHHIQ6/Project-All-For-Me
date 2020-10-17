@@ -1,116 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700&display=swap');
-html,body {
-    margin: 0;
-    padding: 0;
-    background: rgb(100, 146, 127);
-    font-family: 'Piazzolla', serif;
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #2c3e50;
+  font-family: "Piazzolla", serif;
+  color:  #000000;
 }
 
 .box-button {
-    padding: 5px;
+  padding: 5px;
 }
 
 button {
-    padding: 20px 50px;
-    font-size: 1rem;
-    cursor: pointer;
-    border: 0px;
-    background: transparent;
-    position: relative;
-    margin: 10px;
-    transition: all .25s ease;
-    font-family: 'Sansita Swashed', cursive;
+  padding: 20px 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 0px;
+  background: transparent;
+  position: relative;
+  margin: 10px;
+  transition: all 0.25s ease;
+  font-family: "Sansita Swashed", cursive;
 }
 
 .btn-6 {
-    border: 3px solid #000;
-    transform: skew(20deg);
-    overflow: hidden;
-    backface-visibility: hidden;
+  border: 3px solid #000;
+  transform: skew(20deg);
+  overflow: hidden;
+  backface-visibility: hidden;
+  box-shadow: 0 0 5px 5px gray;
 }
 .btn-6 {
-    border: 3px solid #000;
-    transform: skew(20deg);
-    overflow: hidden;
-    backface-visibility: hidden;
+  border: 3px solid #000;
+  transform: skew(20deg);
+  overflow: hidden;
+  backface-visibility: hidden;
 }
 .btn-6:hover > span {
-    opacity: 0;
-    transform: scale(.5);
+  opacity: 0;
+  transform: scale(0.5);
 }
 .btn-6:hover .effect {
-    transform: translate(0);
+  transform: translate(0);
 }
 .btn-6 .effect {
-    position: absolute;
-    background: #000;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translate(0,-100%);
-    transition: all .25s ease;
-    backface-visibility: hidden;
+  position: absolute;
+  background:  #17202a;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(0, -100%);
+  transition: all 0.25s ease;
+  backface-visibility: hidden;
 }
 .btn-6 span {
-    transform: skew(-20deg);
-    display: block;
-    transition: all .25s ease;
+  transform: skew(-20deg);
+  display: block;
+  transition: all 0.25s ease;
 }
 
-.box1{
-    background: whitesmoke;
-    width: 187%;
-    height: 666px;
-    margin: 20px;
-    border-radius: 16px;
+.box1 {
+  background:  #979a9a;
+  width: 187%;
+  height: 666px;
+  margin: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 5px 5px rgb(19, 18, 18);
 }
 
 .image {
-    border-radius: 16px;
-    padding: 5px;
-    width: 500px;
-    height: 125%;
-    position: relative;
-    top: 15px;
+  border-radius: 16px;
+  padding: 5px;
+  width: 500px;
+  height: 125%;
+  position: relative;
+  top: 15px;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .main {
-    max-width: 700px;
-    margin: 5px;
+  max-width: 700px;
+  margin: 5px;
 }
 
-.box2{
-    width: 545px;
-    height: 500px;
-    margin: 20px;
-    position: relative;
-    left: 610px;
-    bottom: 510px;
+.box2 {
+  width: 545px;
+  height: 500px;
+  margin: 20px;
+  position: relative;
+  left: 610px;
+  bottom: 510px;
 }
 
-.box-image{
-    width: 500px;
-    height: 500px;
-    margin: 20px;
+.box-image {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
 }
 
-.li{
-    line-height: 35px;
+.li {
+  line-height: 35px;
 }
 
 .p1 {
-    font-size: 25px;
-    text-decoration: overline;
+  font-size: 25px;
+  text-decoration: overline;
+  text-shadow: 2px 2px 5px black;
+}
+.p2{
+  font-size: 25px;
+  text-decoration: overline;
 }
 
 .h1 {
-    font-size: 40px;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px whitesmoke;
+}
+
+.hover-color{
+  color: #000;
+  font-weight: 600;
 }
